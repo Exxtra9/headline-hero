@@ -1,12 +1,12 @@
 export const metadata = {
   title: "Headline Hero",
-  description: "AI-powered headline writing game"
+  description: "AI headline game"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, background: "#f4f4f4" }}>
+      <body style={{ margin: 0 }}>
         {children}
       </body>
     </html>
